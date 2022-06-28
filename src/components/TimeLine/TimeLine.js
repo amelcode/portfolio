@@ -65,11 +65,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>My Journey</SectionTitle>
+      <SectionTitle>Mon parcours</SectionTitle>
       <SectionText>
-        In my journey to date, I have learned a great deal about development and
-        life in general.
-      </SectionText>
+      Au cours de mon parcours de développeuse web, j'ai pu apprendre beaucoup et je ne compte pas m'arrêter là. 😉 J'ai également d'autres expériences professionnelles, pour les découvrir, je vous laisse aller vous balader sur mon profil LinkedIn. </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

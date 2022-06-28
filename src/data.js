@@ -26,29 +26,29 @@ const projects = [
     description:
       "Site recensant les comics et personnages Marvel via l'API Marvel le réacteur. Les utilisateurs peuvent créer un compte pour l'enregistrement et la gestion de leurs favoris.",
     tags: ["React", "Express", "MongoDB", "API Marvel"],
-    image: "/images/portfolio.jpg",
+    image: "/images/marvel.png",
     sourceCode: "https://github.com/amelmennad/marvel-font-react",
     livePreview: "https://marvel-font-react.netlify.app/",
     id: 1,
   },
-  {
-    title: "Frangibus",
-    description:
-      "Développement du site web d'un restaurant de A à Z avec un backoffice permet la gérer du menu, un calendrier d'événement et un système de réservation en ligne.",
-    tags: ["Gatsby", "Tailwind css", "Express", "MongoDB"],
-    image: "/images/portfolio.jpg",
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-  },
-  {
-    title: "Générateur d'idée de projet dev",
-    description:
-      " Développement d'un site proposant des idées de projets de manière aléatoire ou selon des filtres défini par l'utilisateur. Compte utilisateur permettant le suivis des projets",
-    tags: ["Next.js", "React", "PHP", "Express", "MySQL"],
-    image: "/images/portfolio.jpg",
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
-  },
+  // {
+  //   title: "Frangibus",
+  //   description:
+  //     "Développement du site web d'un restaurant de A à Z avec un backoffice permet la gérer du menu, un calendrier d'événement et un système de réservation en ligne.",
+  //   tags: ["Gatsby", "Tailwind css", "Express", "MongoDB"],
+  //   image: "/images/portfolio.jpg",
+  //   sourceCode: "https://github.com",
+  //   livePreview: "https://github.com",
+  // },
+  // {
+  //   title: "Générateur d'idée de projet dev",
+  //   description:
+  //     " Développement d'un site proposant des idées de projets de manière aléatoire ou selon des filtres défini par l'utilisateur. Compte utilisateur permettant le suivis des projets",
+  //   tags: ["Next.js", "React", "PHP", "Express", "MySQL"],
+  //   image: "/images/portfolio.jpg",
+  //   sourceCode: "https://github.com",
+  //   livePreview: "https://github.com",
+  // },
 ];
 
 const languages = [

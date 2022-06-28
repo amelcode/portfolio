@@ -97,16 +97,16 @@ export const ListSubTitle = styled.div`
   width: 100%;
   margin-top: 4rem;
   margin-bottom: 0.7em;
-  color: #9cc9e3;
+  color: #FFEBEF;
   font-size: 2rem;
   
 `;
 export const Hr = styled.hr`
   width: 50px;
   height: 3px;
-  margin: 8px auto;
+  margin: 0 auto 15px auto;
   border: 0;
-  background: #d0bb57;
+  background: #b56576;
 `;
 export const ListParagraph = styled.div`
   font-size: 18px;
