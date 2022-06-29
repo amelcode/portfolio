@@ -56,11 +56,11 @@ export default class MyDocument extends Document {
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:title"
-            content="Vipul Jha - Android & Flutter Dev"
+            content="Amel - web developer"
           />
           <meta
             property="twitter:description"
-            content="Hey there, This is Vipul Jha aka lordarcadius. I am an Android & Flutter developer who also works on ROMs, Kernels, & Scripts."
+            content="Salut moi c'est Amel 😃 Développeuse web, j'ai travailler sur pendant 2 ans sur des projets Drupal. Maintanant je me lance dans le Javascript, mon langage de coeur "
           />
           <meta
             property="twitter:image"

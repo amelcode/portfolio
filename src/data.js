@@ -10,7 +10,7 @@ const about = {
   name: "Amel",
   role: "Développeuse Fullstack JS",
   description:
-    "Salut moi c'est Amel 😃 Développeuse web, j'ai travailler sur pendant 2 ans sur des projets Drupal. Maintanant je me lance dans le Javascript, mon langage de coeur ❤️‍🔥 ",
+    "Salut moi c'est Amel 😃 Développeuse web, j'ai travaillé pendant 2 ans sur des projets Drupal. Maintanant je me lance dans le Javascript, mon langage de coeur ❤️‍🔥 ",
   social: {
     linkedin: "https://www.linkedin.com/in/amel-mennad/",
     github: "https://github.com/amelmennad",
@@ -85,6 +85,6 @@ const timeLineData = [
   { year: 2019, text: "Mon premier poste en temps que développeuse" },
   { year: 2022, text: "Lancement de la spécialisation Javascript " },
   { year: 2022, text: "🤞 Poste de déveleloppeuse JavaScript" },
-  { year: "after", text: "🔮 seule l'avenir le sait " },
+  { year: "after", text: "🔮 seul l'avenir le sait " },
 ];
 export { header, about, projects, languages, tools, timeLineData };

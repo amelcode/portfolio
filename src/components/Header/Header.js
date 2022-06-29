@@ -20,9 +20,9 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <img src="/logo.png" height={40} width={40} />
+          ✨
           <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
-            Amel
+           Amel
           </span>
         </a>
       </Link>
