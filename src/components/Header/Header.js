@@ -20,10 +20,10 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          ✨
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
+          <img src="/logo.png" alt="logo" width={120} height={120} />
+          {/* <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
            Amel
-          </span>
+          </span> */}
         </a>
       </Link>
     </Div1>
@@ -56,12 +56,12 @@ const Header = () => (
       <SocialIcons href={about.social.linkedin} target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons href="">
+      {/* <SocialIcons href="" target="_blank">
         <AiFillInstagram size="3rem" />
       </SocialIcons> */}
-      {/* <SocialIcons href="">
+      <SocialIcons href={about.social.twitter} target="_blank">
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons> */}
+      </SocialIcons>
     </Div3>
   </Container>
 );

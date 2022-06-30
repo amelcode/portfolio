@@ -13,7 +13,8 @@ const about = {
     "Salut moi c'est Amel 😃 Développeuse web, j'ai travaillé pendant 2 ans sur des projets Drupal. Maintanant je me lance dans le Javascript, mon langage de coeur ❤️‍🔥 ",
   social: {
     linkedin: "https://www.linkedin.com/in/amel-mennad/",
-    github: "https://github.com/amelmennad",
+    github: "https://github.com/amelcode",
+    twitter: "https://twitter.com/amelcode",
   },
   skillsDescription:
     "J'ai eu l'occasion de travailler sur de nombreux projets aux langages et aux technologies différentes. Retrouver ici certaines de ces technologies ",
