@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  ${'' /* grid-template-columns: repeat(5, 1fr); */}
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
@@ -22,7 +22,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
@@ -30,8 +30,9 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   margin-top: 0.75em;
+  align-items: center;
   justify-content: space-between;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
@@ -40,7 +41,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
   }
@@ -57,7 +58,7 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 0.5rem;
     font-size: 1.7rem;
   }
@@ -83,7 +84,7 @@ export const ContactDropDown = styled.button`
     color: #fff;
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     padding: 0.4rem 0;
   }
   @media ${(props) => props.theme.breakpoints.md} {
@@ -103,7 +104,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
     opacity: 1;
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     margin: 2px 0 0 2px;
     width: 15px;
   }
