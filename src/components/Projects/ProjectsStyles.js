@@ -95,11 +95,13 @@ export const ExternalLinks = styled.a`
   color: #f4f3ee;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #8a817c;
+  background: #b56576;
   border-radius: 15px;
   transition: 0.5s;
+  opacity: 0.8;
   &:hover {
-    background: #c1968a;
+    color: #fff;
+    opacity: 1;
   }
 `;
 
