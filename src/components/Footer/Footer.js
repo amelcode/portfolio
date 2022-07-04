@@ -31,14 +31,17 @@ const Footer = () => {
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href={about.social.linkedin} target="_blank">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        {/* <SocialIcons href="">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href={about.social.github} target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/amel_code/" target="_blank">
         <AiFillInstagram size="3rem" />
-      </SocialIcons> */}
-        <SocialIcons href={about.social.twitter} target="_blank">
-          <AiFillTwitterCircle size="3rem" />
-        </SocialIcons>
+      </SocialIcons>
+      <SocialIcons href={about.social.twitter} target="_blank">
+        <AiFillTwitterCircle size="3rem" />
+      </SocialIcons>
       </SocialIconsContainer>
     </FooterWrapper>
   );

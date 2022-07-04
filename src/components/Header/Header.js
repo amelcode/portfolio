@@ -15,7 +15,8 @@ import {
 } from "./HeaderStyles";
 import { about } from "../../data";
 
-const Header = () => (
+const Header = () => 
+(
   <Container>
     <Div1>
       <Link href="/">
@@ -29,18 +30,18 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
-          <NavLink>Projets</NavLink>
+        <Link href={"#projects"}>
+          <NavLink  href={"#projects"}>Projets</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#skills">
-          <NavLink>Skills</NavLink>
+          <NavLink href={"#skills"}>Skills</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>A propos</NavLink>
+          <NavLink href={"#about"}>A propos</NavLink>
         </Link>
       </li>
       <li>
@@ -50,15 +51,15 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href={about.social.github} target="_blank">
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
       <SocialIcons href={about.social.linkedin} target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons href="" target="_blank">
+      <SocialIcons href={about.social.github} target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/amel_code/" target="_blank">
         <AiFillInstagram size="3rem" />
-      </SocialIcons> */}
+      </SocialIcons>
       <SocialIcons href={about.social.twitter} target="_blank">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
